@@ -14,8 +14,8 @@
     </nav>
     <main class="flex-shrink-0">{% block my_content%}{% endblock %}</main>
     <footer class="footer d-flex mt-auto bg-dark p-3 gap-4">
-        <a href="{% url "good_health_animals" %}">Животные с хорошим и отличным здоровьем</a>
-         <a href="{% url 'admin:index' %}">Панель администратора</a>
+         <a href="{% url "good_health_animals" %}"><button class="btn btn-primary">Животные с хорошим и отличным здоровьем</button></a>
+         <a href="{% url 'admin:index' %}"><button class="btn btn-primary">Панель администратора</button></a>
     </footer>
 </body>
 </html>
